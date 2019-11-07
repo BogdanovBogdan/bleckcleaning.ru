@@ -1,0 +1,15 @@
+*.json
+*.bat
+
+/sass
+/phpmailer
+/admin
+/google*
+/yandex*
+
+bootstrap/*
+!bootstrap/css
+bootstrap/css/*
+!bootstrap/css/bootstrap.min.css
+
+

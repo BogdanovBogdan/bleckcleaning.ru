@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>bleckcleaning</title>
+
+	<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif:400,600,700|Roboto:300&display=swap&subset=cyrillic-ext" rel="stylesheet">
+
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+	<div class="overlay text-center">
+		<div class="modal-form">
+
+			<div class="modal-form__close">×</div>
+			<h2 class="modal-form__title">Оставьте заявку <span class="modal-form__title--sub">Мы свяжемся с Вами в течении часа</span></h2>
+
+			<form action="phpmailer/mail.php" method="POST" class="modal-form__form">
+				<input name="user_name" type="text" class="modal-form__field modal-form__field--name" placeholder="Имя">
+				<input name="user_email" type="email" class="modal-form__field" placeholder="E-mail">
+				<input name="user_tel" type="tel" placeholder="Телефона" class="modal-form__field" required>
+				<button type="submit" class="button modal-form__button">Отправить</button>
+			</form>
+		</div>
+	</div>
+
+	<header class="header">
+		<div class="container-fluid">
+			<nav class="navbar navbar-expand-lg navbar-light  justify-content-between">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="nav__tel d-lg-none">8(495)088-37-88 <br>8(915)441-23-41</div>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" href="#about">О нас</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#services">Наши услуги</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#answers">Преимущества</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#contacts">Контакты</a>
+						</li>
+					</ul>
+				</div>
+				<div class="nav__right d-none d-lg-block">
+					<div class="nav__tel">8(495)088-37-88 <br>8(915)441-23-41</div>
+					<button id="open-modal" class="nav__button">Заказать звонок</button>
+				</div>
+			</nav>
+			<!-- ./nav -->
+
+			
+			<div class="header__main">
+				<h1 class="header__title"><span class="header__title--blue">Профессиональный</span> <span class="header__title--blue458">клининг</span>
+			в Москве с 2007 года</h1>
+				<div class="p header__text d-none d-md-block">Знаем строгие требования наших клиентов
+			и умеем строго и качественно их выполнять</div>
+				<button id="open-modal" class="header__button button--gradient">Расчитать стоимость</button>
+			</div>
+		</div>
+	</header>
+
+	<section id="about" class="about">
+		<div class="container-fluid text-center">
+			<h2 class="about__title">О нас</h2>
+			<div class="row about__row">
+				<div class="col-sm-6">
+					<span class="icon-brush about__icon"></span>
+					<p class="about__text">Мы специализируемся на уборке квартир, коттеджей и офисов, знаем строгие <span class="about__title--orange">требования</span> наших клиентов и умеем их выполнять.&#160;<span class="tilda">~</span></p>
+				</div>
+				<div class="col-sm-6 about__col about__col--two">
+					<span class="icon-family about__icon"></span>
+					<p class="about__text">Мы <span class="about__title--orange">профессионально</span> занимаемся уборкой в Москве и Московской области с 2007 года. За это время мы убрали для Вас более 10000 тыс. м2&#160;<span class="tilda">~</span></p>
+				</div>
+				<div class="col about__col about__col--three">
+					<span class="icon-room about__icon about__icon--room"></span>
+					<p class="about__text">Каждый день уборку у себя дома компании  "Блеск" <span class="about__title--orange">доверяют</span> десятки московских семей.&#160;<span class="tilda">~</span></p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="services" class="services">
+		<div class="container-fluid text-center">
+			<h2 class="services__title">Наши услуги</h2>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="services-card services-card--first">
+						<div class="services-card__up">
+						 	<div class="services-card__title">Уборка квартир</div>
+						 	<p class="services-card__text
+						 	services-card__text--mt">Генеральная уборка квартир	</p>
+						 	<p class="services-card__text">Поддерживающая уборка</p>
+						 	<p class="services-card__text">Уборка квартир после ремонта	</p>
+						 	<p class="services-card__text">Поддерживающая уборка квартир 1 раз в неделю</p>
+						</div>
+
+						<div class="services-card__down">
+							<div class="services-card__price">от 59 руб м2</div>
+							<button id="open-modal" class="services-card__button">Заказать</button>
+							<a href="https://vk.com/doc145500996_524348209?hash=1648637331df06dd44&dl=5f1dcbfa3da5579591" class="services-card__download">Скачать прайс</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="services-card">
+						<div class="services-card__up">
+							<div class="services-card__title">Уборка офисов и помещений</div>
+							<p class="services-card__text services-card__text--mt">Ежедневная уборка офисов на контактной основе</p>
+							<p class="services-card__text">Генеральная уборка офисов после ремонта</p>
+							<p class="services-card__text"></p>
+							<p class="services-card__text">Комплексная уборка офисов  </p>
+						</div>
+
+						<div class="services-card__down">
+							<div class="services-card__price">от 30 руб. м2</div>
+							<button id="open-modal" class="services-card__button">Заказать</button>
+							<a href="https://vk.com/doc145500996_524348209?hash=1648637331df06dd44&dl=5f1dcbfa3da5579591" class="services-card__download">Скачать прайс</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="services-card services-card--mt">
+						<div class="services-card__up">
+							<div class="services-card__title">Мытье окон</div>
+							<p class="services-card__text services-card__text--mt">Мойка окон </p>
+							<p class="services-card__text">Мойка окон с применением высотных работ</p>
+							<p class="services-card__text">Мойка окон после ремонта</p>
+							<p class="services-card__text">Мойка витрин и вывесок</p>
+						</div>
+
+						<div class="services-card__down">
+							<div class="services-card__price">от 300 руб </div>
+							<button id="open-modal" class="services-card__button">Заказать</button>
+							<a href="https://vk.com/doc145500996_524348209?hash=1648637331df06dd44&dl=5f1dcbfa3da5579591" class="services-card__download">Скачать прайс</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="services-card services-card--mt">
+						<div class="services-card__up">
+							<div class="services-card__title">Уборка коттеджей</div>
+							<p class="services-card__text services-card__text--mt">Генеральная уборка коттеджа</p>
+							<p class="services-card__text">Уборка коттеджей после ремонта</p>
+							<p class="services-card__text">Поддерживающая уборка</p>
+							<p class="services-card__text">Поддерживающая уборка коттеджа 1 раз в неделю</p>
+						</div>
+
+						<div class="services-card__down">
+							<div class="services-card__price">от 3000 руб </div>
+							<button id="open-modal" class="services-card__button">Заказать</button>
+							<a href="https://vk.com/doc145500996_524348209?hash=1648637331df06dd44&dl=5f1dcbfa3da5579591" class="services-card__download">Скачать прайс</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="answers" class="answers">
+		<div class="container-fluid">
+			<h2 class="answers__title">Ответы на Ваши вопросы</h2>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="answers-card">
+						<div class="answers-card__title answers-card__title--one">Сколько уборка <br>занимает времени?</div>
+						<div class="answers-card__text">Все зависит от пакета уборки, площади, степени загрязнения объекта и поставленных Вами задач. Небольшая квартира - студия менее 3-х часов</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="answers-card answers-card--right">
+						<div class="answers-card__title  answers-card__title--two">Можно ли сделать <br>заказ на выходные?</div>
+						<div class="answers-card__text">Заказ можно сделать на любой удобный для Вас день. Заказы с сайта принимаются круглосуточно и обрабатываются в рабочее время. Оставьте заявку и мы перезвоним</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="answers-card answers-card__col">
+						<div class="answers-card__title answers-card__title--three">Сколько человек <br>делют уборку?</div>
+						<div class="answers-card__text">В зависимости от вида уборки, например: если это генеральная, то понадобится дополнительное время и усилия нескольких человек</div>
+					</div>
+				</div>
+				<div class="col-md-6 ">
+					<div class="answers-card answers-card--right answers-card__col">
+						<div class="answers-card__title answers-card__title--four">За сколько дней нужно <br>делать заказ?</div>
+						<div class="answers-card__text">Заказ можно сделать за несколько часов до начала клининга. Всезависит от вида, объемов и срочности работ</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- /.answers -->
+
+	<footer id="contacts" class="footer">
+		<div class="container-fluid">
+			<h2 class="footer__title">Контакты</h2>
+			<div class="row">
+				<div class="col-md-6">
+					<form action="phpmailer/mail.php" method="POST" class="form">
+						<div class="form__input form__input--name">
+							<!-- <input name="user_name" type="text" placeholder="Введите Ваше имя" class="form__input--text-one"> -->
+							<input name="user_name" type="text" placeholder="Ваше имя" class="form__input--text-two">
+						</div>
+						<div class="form__input form__input--tel">
+							<!-- <input name="user_tel" type="tel" placeholder="Введите Ваш телефон" class="form__input--text-one"> -->
+							<input name="user_tel" type="tel" placeholder="Ваш телефон" class="form__input--text-two" required>
+						</div>
+						<div class="form__input form__input--email">
+							<!-- <input name="user_email" type="email" placeholder="Введите Ваш e-mail" class="form__input--text-one"> -->
+							<input name="user_email" type="email" placeholder="Ваш e-mail" class="form__input--text-two">
+						</div>
+						<button type="submit" class="form__button"><span class="form__button--text-one">Расчитать стоимость</span> <span class="form__button--text-two">Заказать</span></button>
+					</form>
+				</div>
+				<div class="offset-md-1 col-md-5">
+					<address class="contacts">
+						<div class="contacts__title d-none d-md-block">Как с нами связаться:</div>
+						<div class="contacts__tel">8(495)<span class="contacts__tel--bold">088-37-88</span></div>
+						<div class="contacts__sub d-none d-md-block">Звоните с 09:00 до 20:00</div>
+						<div class="contacts__mail">wwbleckclean@mail.ru</div>
+						<div class="contacts__sub d-none d-md-block">Пишите круглосуточно</div>
+						<!-- <div class="contacts__text d-none d-md-block"><a href="https://www.instagram.com/bleckclean/?igshid=1u6dduihdh3y6" class=""><span class="span icon-instagram-logo contacts__link"></span>Мы в instagram</a></div> -->
+							
+					</address>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

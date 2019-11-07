@@ -1,0 +1,160 @@
+*,
+::after,
+::before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  color: #000;
+  font-family: 'IBM Plex Serif', serif;
+  font-size: 1.6rem;
+  overflow-x: hidden;
+}
+
+header,
+footer,
+section {
+  padding: 100px 0;
+}
+
+button {
+  border: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+p {
+  font-size: 2.4rem;
+  margin: 0;
+}
+
+p .text-card {
+  font-size: 1.8rem;
+  margin: 9px 0;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 5.2rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 7.2rem;
+  font-weight: 700;
+}
+
+*::before {
+  font-size: 7.7rem;
+  font-weight: 700;
+}
+
+.header {
+  background: url("../img/header/bg.png") top no-repeat;
+  padding-bottom: 278px;
+}
+
+.header__main {
+  margin-top: 130px;
+  max-width: 819px;
+}
+
+.header__title--blue {
+  color: #0ad6c9;
+}
+
+.header__text {
+  margin-top: 37px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.header__button {
+  margin-top: 143px;
+  color: #fff;
+  font-size: 2.4rem;
+  width: 390px;
+  height: 99px;
+  -webkit-box-shadow: 0 0 22px 2px rgba(7, 4, 77, 0.1);
+  box-shadow: 0 0 22px 2px rgba(7, 4, 77, 0.1);
+  border-radius: 50px;
+  background: linear-gradient(-110deg, #05fecd 0%, #0accc9 28%, #03a9f0 51%, #a37ef1 83%, #a37ef1 100%);
+}
+
+.navbar {
+  font-size: 2rem;
+  padding: 0;
+}
+
+.nav-item {
+  margin-right: 40px;
+}
+
+.nav__right {
+  right: 10%;
+}
+
+.nav__tel {
+  display: inline-block;
+  margin-right: 13px;
+}
+
+.nav__button {
+  font-size: 2rem;
+  background: rgba(255, 255, 255, 0);
+  color: #fff;
+  width: 203px;
+  height: 45px;
+  -webkit-box-shadow: 0 0 22px 2px rgba(7, 4, 77, 0.1);
+  box-shadow: 0 0 22px 2px rgba(7, 4, 77, 0.1);
+  border-radius: 23px;
+  border: 2px solid;
+  border-color: linear-gradient(to top, #6573ff, #686ff2, #6a6be4, #6d68d7, #7064c9, #7260bc, #755cae, #7758a1, #7a5493, #7d5186, #7f4d78, #82496b);
+}
+
+.about {
+  background: url("../img/bg.png") top no-repeat;
+}
+
+.about__row {
+  margin-top: 130px;
+}
+
+.about__text {
+  margin-top: 30px;
+}
+
+.about__col {
+  margin-top: 158px;
+}
+
+.about__title--orange {
+  color: #ff9000;
+}
+
+.about__icon {
+  font-size: 80px;
+  font-weight: 300px;
+  background: linear-gradient(-110deg, #05fecd 0%, #0accc9 28%, #03a9f0 51%, #a37ef1 83%, #a37ef1 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
