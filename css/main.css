@@ -569,6 +569,7 @@ h2 {
 }
 
 .contacts__text {
+  cursor: poiner;
   margin-top: 114px;
   font-size: 3rem;
   display: -webkit-box !important;
