@@ -417,6 +417,7 @@ h2 {
   left: -61px;
   width: 45px;
   height: 60px;
+  overflow: visible;
   font-size: 7.2rem;
   font-weight: 700;
   background-image: linear-gradient(-110deg, #05fecd 0%, #0accc9 28%, #03a9f0 51%, #a37ef1 83%, #a37ef1 100%);
